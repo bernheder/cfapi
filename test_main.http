@@ -1,0 +1,19 @@
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+
+GET http://127.0.0.1:8000/calibration-files
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/calibration-files/Pandora31s1_CF_v1d20191017.txt
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/calibration-files?show_field=indices_of_warm_pixels
+Accept: application/json
