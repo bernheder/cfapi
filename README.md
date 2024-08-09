@@ -30,7 +30,7 @@ This endpoint returns details about the API
 
 ### GET /calibration-files
 This endpoint returns a list of all calibration files.
-Can be filtered by setting query parameter "show_field" to the field you want to filter by.  
+It is also possible to show specific fields of each file by setting query parameter "show_field" to the field you want to show.  
 
 For example:
 http://localhost:4001/calibration-files?show_field=indices_of_warm_pixels
