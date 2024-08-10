@@ -1,8 +1,8 @@
 from datetime import datetime
 from fastapi import FastAPI, Query, Request
 import os
-from crud import CalibrationFile, init_db, store_file, get_files, get_file
-from config import DATA_FOLDER
+from .crud import CalibrationFile, init_db, store_file, get_files, get_file
+from .config import DATA_FOLDER
 
 
 def parse_calibration_file(file_name: str) -> CalibrationFile:

@@ -3,7 +3,7 @@ import sqlite3
 from contextlib import contextmanager
 from dataclasses import dataclass
 from datetime import datetime
-from config import DATABASE
+from .config import DATABASE
 
 
 @dataclass
